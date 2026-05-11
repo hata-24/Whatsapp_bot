@@ -82,19 +82,12 @@ An intelligent WhatsApp chatbot that combines a **Python/FastAPI ML backend** wi
 ## 🗂️ Google Sheets Structure
 
 ### 1. User State Sheet (`User_state`)
-
-| User         | State |
-| ------------ | ----- |
-| XXXXXXXXXXXX | menu  |
+<img width="463" height="360" alt="image" src="https://github.com/user-attachments/assets/bd0f559b-7438-4110-8d80-ffa22adc4c6b" />
 
 ---
 
 ### 2. Product Catalog Sheet (`Catalog`)
-
-| A (Product Name) | B (Price) |
-| ---------------- | --------- |
-| Headphones       | 50        |
-| Keyboard         | 80        |
+<img width="664" height="348" alt="image" src="https://github.com/user-attachments/assets/1b32ecde-02b8-4f39-a308-e72036654904" />
 
 ---
 
