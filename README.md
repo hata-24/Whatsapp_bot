@@ -165,7 +165,7 @@ Create a spreadsheet with two tabs:
  
 1. Open your n8n instance.
 2. Go to **Workflows → Import from file**.
-3. Upload `Whatsapp_chatbot_sanitized.json`.
+3. Upload `whatsapp-chatbot-n8n-workflow.json`.
 4. Add your credentials for:
    - WhatsApp Cloud API (Meta access token + phone number ID)
    - Google Sheets (OAuth2 or service account)
