@@ -1,9 +1,20 @@
 # 📱 WhatsApp Chatbot (n8n Workflow)
-
-This repository contains an automated WhatsApp chatbot built using **n8n**, integrated with **Google Sheets** and **Google Gemini AI** for intelligent responses and product handling.
+An intelligent WhatsApp chatbot that combines a **Python/FastAPI ML backend** with an **n8n automation workflow** to handle customer queries automatically — powered by Google Gemini AI and backed by Google Sheets as a lightweight database.
 
 ## What the workflow looks like
 <img width="1790" height="642" alt="image" src="https://github.com/user-attachments/assets/054be059-657a-4ce7-a641-e8b9609846c6" />
+
+## 🛠️ Tech Stack
+ 
+| Layer | Technology |
+|---|---|
+| Workflow automation | [n8n](https://n8n.io/) |
+| Messaging API | WhatsApp Cloud API (Meta) |
+| AI / NLP | Google Gemini |
+| ML backend | Python · FastAPI · scikit-learn |
+| Database | Google Sheets |
+
+---
 
 ## 🚀 Features
 
@@ -97,11 +108,3 @@ This repository contains an automated WhatsApp chatbot built using **n8n**, inte
 ---
 
 
-## 🛠️ Tech Stack
-
-* n8n (Workflow Automation)
-* WhatsApp Cloud API (Meta)
-* Google Sheets (Database)
-* Google Gemini (AI/NLP)
-
----
