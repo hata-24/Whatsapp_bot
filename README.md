@@ -2,7 +2,7 @@
 
 This repository contains an automated WhatsApp chatbot built using **n8n**, integrated with **Google Sheets** and **Google Gemini AI** for intelligent responses and product handling.
 
-## Worflow
+## What the workflow looks like
 <img width="1790" height="642" alt="image" src="https://github.com/user-attachments/assets/054be059-657a-4ce7-a641-e8b9609846c6" />
 
 ## 🚀 Features
