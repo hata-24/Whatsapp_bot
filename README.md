@@ -142,17 +142,12 @@ Confidence threshold is set to `0.20` — anything below is classified as `"othe
 Create a spreadsheet with two tabs:
  
 **`User_state`**
- 
-| User | State |
-|---|---|
-| 923001234567 | menu |
+ <img width="463" height="360" alt="image" src="https://github.com/user-attachments/assets/bd0f559b-7438-4110-8d80-ffa22adc4c6b" />
+
  
 **`Catalog`**
- 
-| A (Product Name) | B (Price) |
-|---|---|
-| Headphones | 50 |
-| Keyboard | 80 |
+ <img width="664" height="348" alt="image" src="https://github.com/user-attachments/assets/1b32ecde-02b8-4f39-a308-e72036654904" />
+
  
 ### 4. Import the n8n workflow
  
