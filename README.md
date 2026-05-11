@@ -16,16 +16,16 @@ An intelligent WhatsApp chatbot that combines a **Python/FastAPI ML backend** wi
 
 ---
 
-## 🚀 Features
+## ✨ Features
+ 
+- **Webhook-triggered** — responds to incoming WhatsApp messages in real time
+- **AI intent detection** — uses Google Gemini to understand natural language queries
+- **ML fallback** — a local scikit-learn model (`app.py`) classifies intent and product with confidence thresholds
+- **Dynamic product catalog** — reads product names and prices live from Google Sheets
+- **Stateful conversations** — tracks each user's position in the menu flow
+- **Duplicate message guard** — prevents double-processing the same message
+- **Supports both menu-based and free-text input**
 
-* Receive WhatsApp messages via webhook
-* AI-powered intent detection using Google Gemini
-* View product catalog from Google Sheets
-* Query product prices dynamically
-* Provide support contact details
-* Share business hours
-* Maintain user state (menu navigation)
-* Handles both menu-based and natural language input
 
 ---
 
@@ -106,5 +106,77 @@ An intelligent WhatsApp chatbot that combines a **Python/FastAPI ML backend** wi
 * `awaiting_product` → waiting for product query
 
 ---
+
+## 🚀 Getting Started
+ 
+### Prerequisites
+ 
+- [n8n](https://docs.n8n.io/hosting/) instance (self-hosted or cloud)
+- Meta Developer account with a WhatsApp Business app
+- Google Cloud project with Sheets API and Gemini API enabled
+- Python 3.9+
+### 1. Clone the repository
+ 
+```bash
+git clone https://github.com/hata-24/Whatsapp_bot.git
+cd Whatsapp_bot
+```
+ 
+### 2. Set up the Python ML server
+ 
+```bash
+pip install fastapi uvicorn scikit-learn joblib
+ 
+# (Optional) Retrain the models on your own data
+python intent_model.py
+ 
+# Start the API server
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+ 
+The server exposes a single endpoint:
+ 
+```
+POST /predict
+Body: { "text": "<user message>" }
+Returns: { "intent": "...", "product": "..." }
+```
+ 
+Confidence threshold is set to `0.20` — anything below is classified as `"other"` / `"Default"`.
+ 
+### 3. Set up Google Sheets
+ 
+Create a spreadsheet with two tabs:
+ 
+**`User_state`**
+ 
+| User | State |
+|---|---|
+| 923001234567 | menu |
+ 
+**`Catalog`**
+ 
+| A (Product Name) | B (Price) |
+|---|---|
+| Headphones | 50 |
+| Keyboard | 80 |
+ 
+### 4. Import the n8n workflow
+ 
+1. Open your n8n instance.
+2. Go to **Workflows → Import from file**.
+3. Upload `Whatsapp_chatbot_sanitized.json`.
+4. Add your credentials for:
+   - WhatsApp Cloud API (Meta access token + phone number ID)
+   - Google Sheets (OAuth2 or service account)
+   - Google Gemini (API key)
+5. Update the Google Sheets node to point to your spreadsheet ID.
+6. Activate the workflow.
+### 5. Configure the WhatsApp webhook
+ 
+In your Meta Developer dashboard, set the webhook URL to your n8n webhook endpoint and subscribe to the `messages` field.
+ 
+---
+
 
 
