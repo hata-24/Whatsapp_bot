@@ -1,0 +1,6 @@
+ngrok http 5678
+set WEBOOK_URL=(address from ngrok)& n8n
+
+
+after going to AI_proj library:
+uvicorn app:app --host 0.0.0.0 --port 8000

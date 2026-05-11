@@ -1,0 +1,1237 @@
+text,intent,product
+hello,menu,Default
+hi,menu,Default
+hey,menu,Default
+good morning,menu,Default
+good evening,menu,Default
+assalamualaikum,menu,Default
+aoa,menu,Default
+salam,menu,Default
+help,menu,Default
+need help,menu,Default
+can you help me,menu,Default
+show menu,menu,Default
+main menu,menu,Default
+what can you do,menu,Default
+options please,menu,Default
+guide me,menu,Default
+start,menu,Default
+restart,menu,Default
+support please,menu,Default
+hello bot,menu,Default
+hey there,menu,Default
+madad chahiye,menu,Default
+menu dikhao,menu,Default
+kya options hain,menu,Default
+mujhe help chahiye,menu,Default
+bot ho?,menu,Default
+salam dost,menu,Default
+kya scene hai,menu,Default
+assist me,menu,Default
+what services do you offer,menu,Default
+show products,view_products,Default
+view products,view_products,Default
+show catalog,view_products,Default
+catalog please,view_products,Default
+show items,view_products,Default
+what products do you have,view_products,Default
+display products,view_products,Default
+list products,view_products,Default
+available products,view_products,Default
+show inventory,view_products,Default
+can i see your products,view_products,Default
+browse products,view_products,Default
+send catalog,view_products,Default
+show all products,view_products,Default
+items please,view_products,Default
+what do you sell,view_products,Default
+show your products,view_products,Default
+available items,view_products,Default
+let me see products,view_products,Default
+products please,view_products,Default
+catalog dikhao,view_products,Default
+products dikhao,view_products,Default
+items dikhao,view_products,Default
+kya products hain,view_products,Default
+stock dikhao,view_products,Default
+mujhe catalog bhejo,view_products,Default
+kya available hai,view_products,Default
+products bhej do,view_products,Default
+saman dikhao,view_products,Default
+inventory bhejo,view_products,Default
+how much is laptop,product_query,Laptop
+laptop price,product_query,Laptop
+price of laptop,product_query,Laptop
+gaming laptop price,product_query,Laptop
+office laptop price,product_query,Laptop
+cheap laptop price,product_query,Laptop
+best laptop price,product_query,Laptop
+laptop kitne ka hai,product_query,Laptop
+laptop ki price kya hai,product_query,Laptop
+laptop ka rate kya hai,product_query,Laptop
+price batao laptop ki,product_query,Laptop
+mujhe laptop ki price chahiye,product_query,Laptop
+laptop ki cost,product_query,Laptop
+laptop ka price bata dein,product_query,Laptop
+gaming laptop kitne ka hai,product_query,Laptop
+how much does the laptop cost,product_query,Laptop
+need laptop pricing,product_query,Laptop
+can you tell me laptop price,product_query,Laptop
+latest laptop price,product_query,Laptop
+student laptop price,product_query,Laptop
+how much is monitor,product_query,Monitor
+monitor price,product_query,Monitor
+hello,menu,Default
+hi,menu,Default
+hey,menu,Default
+hii,menu,Default
+helloo,menu,Default
+hey there,menu,Default
+hello there,menu,Default
+hi there,menu,Default
+good morning,menu,Default
+good evening,menu,Default
+good afternoon,menu,Default
+good night,menu,Default
+hey bro,menu,Default
+hello bro,menu,Default
+hi bro,menu,Default
+hey buddy,menu,Default
+hello buddy,menu,Default
+salam,menu,Default
+assalamualaikum,menu,Default
+aoa,menu,Default
+walaikum salam,menu,Default
+salam bro,menu,Default
+salam dost,menu,Default
+kya haal hai,menu,Default
+kya scene hai,menu,Default
+kya chal raha hai,menu,Default
+sab theek?,menu,Default
+how are you,menu,Default
+how r u,menu,Default
+what's up,menu,Default
+wassup,menu,Default
+yo,menu,Default
+hey yo,menu,Default
+hello bhai,menu,Default
+hi bhai,menu,Default
+price of monitor,product_query,Monitor
+gaming monitor price,product_query,Monitor
+curved monitor price,product_query,Monitor
+monitor kitne ka hai,product_query,Monitor
+monitor ki price kya hai,product_query,Monitor
+monitor ka rate kya hai,product_query,Monitor
+price batao monitor ki,product_query,Monitor
+mujhe monitor ki price chahiye,product_query,Monitor
+monitor ki cost,product_query,Monitor
+monitor ka price bata dein,product_query,Monitor
+monitor ka price bata dein,product_query,Monitor
+gaming monitor chahiye,product_query,Monitor
+cheap monitor dikhao,product_query,Monitor
+144hz monitor available hai?,product_query,Monitor
+office monitor hai?,product_query,Monitor
+
+headphone ki price kya hai?,product_query,Headphone
+wireless headphones chahiye,product_query,Headphone
+gaming headset available hai?,product_query,Headphone
+sony headphones hain?,product_query,Headphone
+noise cancelling headphones dikhao,product_query,Headphone
+
+earbuds available hain?,product_query,Earbuds
+bluetooth earbuds chahiye,product_query,Earbuds
+apple airpods dikhao,product_query,Earbuds
+cheap earbuds hain?,product_query,Earbuds
+wireless earbuds ki range batao,product_query,Earbuds
+
+gaming laptop chahiye,product_query,Laptop
+student laptop available hai?,product_query,Laptop
+laptop ki price bata dein,product_query,Laptop
+macbook jaisa laptop hai?,product_query,Laptop
+budget laptop dikhao,product_query,Laptop
+
+gaming mouse chahiye,product_query,Mouse
+wireless mouse available hai?,product_query,Mouse
+mouse ki price kya hai?,product_query,Mouse
+logitech mouse dikhao,product_query,Mouse
+cheap gaming mouse chahiye,product_query,Mouse
+
+mechanical keyboard chahiye,product_query,Keyboard
+gaming keyboard available hai?,product_query,Keyboard
+keyboard ki range kya hai?,product_query,Keyboard
+wireless keyboard dikhao,product_query,Keyboard
+rgb keyboard chahiye,product_query,Keyboard
+
+4k smart tv chahiye,product_query,TV
+oled tv available hai?,product_query,TV
+tv ki price kya hai?,product_query,TV
+gaming ke liye tv dikhao,product_query,TV
+cheap smart tv chahiye,product_query,TV
+
+study desk chahiye,product_query,Desk
+office desk available hai?,product_query,Desk
+wooden desk dikhao,product_query,Desk
+standing desk hai?,product_query,Desk
+desk ki price kya hai?,product_query,Desk
+
+office chair chahiye,product_query,Chair
+gaming chair available hai?,product_query,Chair
+ergonomic chair dikhao,product_query,Chair
+chair ki price kya hai?,product_query,Chair
+comfortable chair chahiye,product_query,Chair
+
+nike shoes available hain?,product_query,Shoes
+running shoes chahiye,product_query,Shoes
+sneakers dikhao,product_query,Shoes
+sports shoes ki range kya hai?,product_query,Shoes
+casual shoes available hai?,product_query,Shoes
+
+hoodie chahiye,product_query,Hoodie
+winter hoodie available hai?,product_query,Hoodie
+oversized hoodie dikhao,product_query,Hoodie
+black hoodie hai?,product_query,Hoodie
+hoodie ki price bata dein,product_query,Hoodie
+
+backpack chahiye,product_query,Backpack
+travel bag available hai?,product_query,Backpack
+school backpack dikhao,product_query,Backpack
+waterproof backpack hai?,product_query,Backpack
+bag ki price kya hai?,product_query,Backpack
+
+charger available hai?,product_query,Charger
+fast charger chahiye,product_query,Charger
+usb c charger dikhao,product_query,Charger
+iphone charger hai?,product_query,Charger
+charger ki range kya hai?,product_query,Charger
+
+power bank chahiye,product_query,Power Bank
+portable charger available hai?,product_query,Power Bank
+anker power bank dikhao,product_query,Power Bank
+power bank ki price kya hai?,product_query,Power Bank
+fast charging power bank hai?,product_query,Power Bank
+
+ps5 controller chahiye,product_query,Controller
+gaming controller available hai?,product_query,Controller
+wireless controller dikhao,product_query,Controller
+xbox controller hai?,product_query,Controller
+controller ki price kya hai?,product_query,Controller
+
+cricket bat chahiye,product_query,Cricket Bat
+professional cricket bat available hai?,product_query,Cricket Bat
+football dikhao,product_query,Football
+badminton racket chahiye,product_query,Racket
+sports equipment available hai?,product_query,Football
+keyboard details and price,product_query,Keyboard
+how much is mouse,product_query,Mouse
+jeans available,product_query,Jeans
+jeans available hain?,product_query,Jeans
+blue jeans chahiye,product_query,Jeans
+cargo pants dikhao,product_query,Pants
+pants ki range kya hai?,product_query,Pants
+casual pants available hai?,product_query,Pants
+
+smartwatch chahiye,product_query,Watch
+apple watch available hai?,product_query,Watch
+fitness watch dikhao,product_query,Watch
+watch ki price kya hai?,product_query,Watch
+digital watch available hai?,product_query,Watch
+mouse price,product_query,Mouse
+price of mouse,product_query,Mouse
+gaming mouse price,product_query,Mouse
+wireless mouse price,product_query,Mouse
+mouse kitne ka hai,product_query,Mouse
+mouse ki price kya hai,product_query,Mouse
+mouse ka rate kya hai,product_query,Mouse
+price batao mouse ki,product_query,Mouse
+mujhe mouse ki price chahiye,product_query,Mouse
+mouse ki cost,product_query,Mouse
+mouse ka price bata dein,product_query,Mouse
+rgb mouse kitne ka hai,product_query,Mouse
+how much does the mouse cost,product_query,Mouse
+thank you,other,None
+thanks bhai,other,None
+okay great,other,None
+perfume chahiye,product_query,Perfume
+mens perfume available hai?,product_query,Perfume
+luxury fragrance dikhao,product_query,Perfume
+long lasting perfume hai?,product_query,Perfume
+perfume ki price kya hai?,product_query,Perfume
+face wash chahiye,product_query,Face Wash
+moisturizer available hai?,product_query,Moisturizer
+do you sell Moisturizer?,product_query,Moisturizer
+I want to buy Moisturizer?,product_query,Moisturizer
+vitamin c serum dikhao,product_query,Serum
+skincare products hain?,product_query,Skincare
+do you sell skincare?,product_query,Skincare
+I want to buy skincare?,product_query,Skincare
+lip care products available hain?,product_query,Lip Care
+do you sell Lip balm?,product_query,Lip care
+I want to buy lip cream?,product_query,Lip care
+hello,menu,None
+hi,menu,None
+salam,menu,None
+assalamualaikum,menu,None
+hey there,menu,None
+kya kya products available hain?,menu,None
+show me your catalog,menu,None
+products dikhao,menu,None
+menu dikhao,menu,None
+available items batao,menu,None
+keyboard ki cost,product_query,Keyboard
+keyboard ka price bata dein,product_query,Keyboard
+rgb keyboard kitne ka hai,product_query,Keyboard
+how much does the keyboard cost,product_query,Keyboard
+need keyboard pricing,product_query,Keyboard
+can you tell me keyboard price,product_query,Keyboard
+latest keyboard price,product_query,Keyboard
+cheap keyboard price,product_query,Keyboard
+best keyboard price,product_query,Keyboard
+theek hai,other,None
+acha nice,other,None
+bye,other,None
+allah hafiz,other,None
+goodbye,other,None
+see you later,other,None
+ok thanks,other,None
+office monitor kitne ka hai,product_query,Monitor
+how much does the monitor cost,product_query,Monitor
+need monitor pricing,product_query,Monitor
+can you tell me monitor price,product_query,Monitor
+latest monitor price,product_query,Monitor
+cheap monitor price,product_query,Monitor
+best monitor price,product_query,Monitor
+monitor details and price,product_query,Monitor
+how much is headphone,product_query,Headphone
+headphone price,product_query,Headphone
+price of headphone,product_query,Headphone
+wireless headphone price,product_query,Headphone
+bluetooth headphone price,product_query,Headphone
+headphone kitne ka hai,product_query,Headphone
+headphone ki price kya hai,product_query,Headphone
+headphone ka rate kya hai,product_query,Headphone
+price batao headphone ki,product_query,Headphone
+mujhe headphone ki price chahiye,product_query,Headphone
+headphone ki cost,product_query,Headphone
+headphone ka price bata dein,product_query,Headphone
+gaming headphone kitne ka hai,product_query,Headphone
+how much does the headphone cost,product_query,Headphone
+need headphone pricing,product_query,Headphone
+can you tell me headphone price,product_query,Headphone
+latest headphone price,product_query,Headphone
+cheap headphone price,product_query,Headphone
+best headphone price,product_query,Headphone
+headphone details and price,product_query,Headphone
+how much is keyboard,product_query,Keyboard
+keyboard price,product_query,Keyboard
+price of keyboard,product_query,Keyboard
+gaming keyboard price,product_query,Keyboard
+mechanical keyboard price,product_query,Keyboard
+keyboard kitne ka hai,product_query,Keyboard
+keyboard ki price kya hai,product_query,Keyboard
+keyboard ka rate kya hai,product_query,Keyboard
+price batao keyboard ki,product_query,Keyboard
+mujhe keyboard ki price chahiye,product_query,Keyboard
+need mouse pricing,product_query,Mouse
+can you tell me mouse price,product_query,Mouse
+latest mouse price,product_query,Mouse
+cheap mouse price,product_query,Mouse
+best mouse price,product_query,Mouse
+mouse details and price,product_query,Mouse
+contact number,contact_request,Default
+phone number,contact_request,Default
+support number,contact_request,Default
+how can i contact you,contact_request,Default
+customer support number,contact_request,Default
+share your number,contact_request,Default
+business contact number,contact_request,Default
+email address please,contact_request,Default
+support contact,contact_request,Default
+can i get your number,contact_request,Default
+contact details please,contact_request,Default
+how do i reach you,contact_request,Default
+gaming mouse available?,product_query,Mouse
+wireless mouse available?,product_query,Mouse
+rgb mouse available?,product_query,Mouse
+cheap mouse chahiye,product_query,Mouse
+best mouse for gaming?,product_query,Mouse
+mouse ki price kya hai,product_query,Mouse
+mouse kitne ka hai,product_query,Mouse
+office mouse available?,product_query,Mouse
+show mouse prices,product_query,Mouse
+mouse specs bhejo,product_query,Mouse
+show products,view_products,Default
+show catalog,view_products,Default
+catalog bhejo,view_products,Default
+products dikhao,view_products,Default
+available products kya hain,view_products,Default
+inventory dikhao,view_products,Default
+stock available kya hai,view_products,Default
+all products please,view_products,Default
+take care,other,None
+phir milte hain,other,None
+bye bhai,other,None
+okay bye,other,None
+i will come back later,other,None
+main baad mein aata hoon,other,None
+chat later,other,None
+milte hain baad mein,other,None
+customer support chahiye,contact_request,Default
+whatsapp number do,contact_request,Default
+mujhe contact karna hai,contact_request,Default
+support contact do,contact_request,Default
+call karna hai,contact_request,Default
+helpline number kya hai,contact_request,Default
+support team ka number do,contact_request,Default
+i will think about it,other,None
+latest products dikhao,view_products,Default
+new arrivals available?,view_products,Default
+show electronics,view_products,Default
+computer accessories dikhao,view_products,Default
+pc setup products dikhao,view_products,Default
+gaming accessories available?,view_products,Default
+office accessories available?,view_products,Default
+full catalog bhej do,view_products,Default
+available gadgets dikhao,view_products,Default
+what products do you sell,view_products,Default
+aapke paas kya kya hai,view_products,Default
+show latest stock,view_products,Default
+need help,menu,Default
+i need help,menu,Default
+can you help me,menu,Default
+help me please,menu,Default
+assist me,menu,Default
+guide me,menu,Default
+support please,menu,Default
+i am confused,menu,Default
+samajh nahi aa raha,menu,Default
+mujhe help chahiye,menu,Default
+hello do you hear me,menu,Default
+are you active,menu,Default
+store timing kya hai,business_hours,Default
+shop open kab hoti hai,business_hours,Default
+shop close kab hoti hai,business_hours,Default
+aap kitne baje open ho,business_hours,Default
+aap kitne baje band ho,business_hours,Default
+daily timings kya hain,business_hours,Default
+opening time batao,business_hours,Default
+closing time batao,business_hours,Default
+today open hai kya,business_hours,Default
+kal open ho ge?,business_hours,Default
+weekend open hota hai?,business_hours,Default
+holiday timing kya hai,business_hours,Default
+store timing schedule,business_hours,Default
+kab available hote ho aap,business_hours,Default
+raat ko open hota hai?,business_hours,Default
+subah kitne baje open,business_hours,Default
+evening timing kya hai,business_hours,Default
+shop timing confirm karo,business_hours,Default
+business hours confirm,business_hours,Default
+hello again,menu,Default
+hi again,menu,Default
+start,menu,Default
+need customer support,contact_request,Default
+support email please,contact_request,Default
+where can i contact you,contact_request,Default
+rabta number kya hai,contact_request,Default
+contact number bhejo,contact_request,Default
+number bhejo,contact_request,Default
+urgent support chahiye,contact_request,Default
+emergency contact,contact_request,Default
+need help asap,contact_request,Default
+talk to human,contact_request,Default
+real person chahiye,contact_request,Default
+agent connect karo,contact_request,Default
+support team se baat karni hai,contact_request,Default
+complaint number do,contact_request,Default
+help line kya hai,contact_request,Default
+service center number,contact_request,Default
+customer complaint contact,contact_request,Default
+call me back,contact_request,Default
+please contact me,contact_request,Default
+i need assistance urgently,contact_request,Default
+connect to customer care,contact_request,Default
+support staff available?,contact_request,Default
+live chat support,contact_request,Default
+speak to representative,contact_request,Default
+contact support fast,contact_request,Default
+support ka number do,contact_request,Default
+phone number batao,contact_request,Default
+contact details bhejo,contact_request,Default
+email kya hai,contact_request,Default
+support se baat karni hai,contact_request,Default
+begin,menu,Default
+menu,menu,Default
+main menu,menu,Default
+show menu,menu,Default
+open menu,menu,Default
+options,menu,Default
+show options,menu,Default
+what can you do,menu,Default
+help,menu,Default
+cheap laptop dikhao,product_query,Laptop
+best laptop for gaming?,product_query,Laptop
+video editing ke liye laptop chahiye,product_query,Laptop
+show keyboard prices,product_query,Keyboard
+keyboard specs bhejo,product_query,Keyboard
+hello mouse available?,product_query,Mouse
+how are you?,other,None
+kaise ho?,other,None
+sab theek?,other,None
+what's up?,other,None
+kya haal hai?,other,None
+you there?,other,None
+are you online?,other,None
+hello bhai kya haal hai,other,None
+kaam kaise chal raha hai?,other,None
+everything okay?,other,None
+i am just checking,other,None
+bas dekh raha tha,other,None
+just browsing,other,None
+sirf info chahiye thi,other,None
+main sirf prices compare kar raha hoon,other,None
+just looking around,other,None
+abhi decide nahi kiya,other,None
+not buying right now,other,None
+maybe later,other,None
+back again,menu,Default
+i am back,menu,Default
+testing,menu,Default
+test,menu,Default
+check,menu,Default
+hello team,menu,Default
+hi team,menu,Default
+customer support,menu,Default
+talk to support,menu,Default
+speak to agent,menu,Default
+live support,menu,Default
+human support,menu,Default
+hello sir,menu,Default
+hi sir,menu,Default
+hello ma'am,menu,Default
+hi ma'am,menu,Default
+greetings,menu,Default
+okay,other,None
+alright,other,None
+sounds good,other,None
+great thanks,other,None
+thank you so much,other,None
+thanks a lot,other,None
+cool,other,None
+nice,other,None
+awesome,other,None
+perfect,other,None
+keyboard kitne ka hai,product_query,Keyboard
+office keyboard available?,product_query,Keyboard
+got it,other,None
+understood,other,None
+alright bro,other,None
+okay bhai,other,None
+acha theek hai,other,None
+sahi hai,other,None
+zabardast,other,None
+bohat acha,other,None
+great service,other,None
+hello there,menu,Default
+hi again,menu,Default
+hey buddy,menu,Default
+good to see you,menu,Default
+start chat,menu,Default
+open menu,menu,Default
+show me options,menu,Default
+what can you help with,menu,Default
+i am confused,menu,Default
+need assistance,menu,Default
+help me please,menu,Default
+can you guide me,menu,Default
+i need support,menu,Default
+bot active?,menu,Default
+are you online,menu,Default
+respond please,menu,Default
+hello are you there,menu,Default
+wake up bot,menu,Default
+let’s start,menu,Default
+begin chat,menu,Default
+thank you bhai,other,None
+thanks yaar,other,None
+okay thanks,other,None
+contact number please,contact_request,Default
+phone number do,contact_request,Default
+support number chahiye,contact_request,Default
+customer care number,contact_request,Default
+whatsapp number,contact_request,Default
+how can i contact you,contact_request,Default
+contact details,contact_request,Default
+email address,contact_request,Default
+support email,contact_request,Default
+live agent,contact_request,Default
+talk to support,contact_request,Default
+connect me to support,contact_request,Default
+help desk number,contact_request,Default
+sales contact,contact_request,Default
+technical support,contact_request,Default
+nothing,other,None
+no idea,other,None
+random,other,None
+blabla,other,None
+test test,other,None
+asdfasdf,other,None
+qwertyuiop,other,None
+........,other,None
+??? ,other,None
+what is this,other,None
+i don't understand,other,None
+confused message,other,None
+irrelevant,other,None
+junk text,other,None
+skip,other,None
+ignore this,other,None
+just typing,other,None
+keyboard smash,other,None
+lorem ipsum,other,None
+check system,other,None
+call support,contact_request,Default
+customer service number,contact_request,Default
+store contact,contact_request,Default
+official contact,contact_request,Default
+can i get your number,contact_request,Default
+hmm okay,other,None
+hmm samajh gaya,other,None
+right,other,None
+fine,other,None
+done,other,None
+theek hai boss,other,None
+perfect bhai,other,None
+acha laga sun ke,other,None
+hello do you have gaming keyboards,product_query,Keyboard
+hi i need a monitor for office work,product_query,Monitor
+i want to purchase a laptop,product_query,Laptop
+do you sell bluetooth headphones,product_query,Headphone
+can i get a gaming mouse,product_query,Mouse
+hello do you have mousepads,product_query,Mousepad
+hi can i buy a mechanical keyboard,product_query,Keyboard
+freelancing laptop available?,product_query,Laptop
+programming laptop chahiye,product_query,Laptop
+can you recommend a laptop,product_query,Laptop
+show laptop prices,product_query,Laptop
+laptop ki price kya hai,product_query,Laptop
+laptop kitne ka hai,product_query,Laptop
+dell laptop available?,product_query,Laptop
+hp laptop available?,product_query,Laptop
+lenovo laptop available?,product_query,Laptop
+asus gaming laptop hai?,product_query,Laptop
+macbook available?,product_query,Laptop
+budget laptop available?,product_query,Laptop
+hello monitor available?,product_query,Monitor
+gaming monitor chahiye,product_query,Monitor
+office monitor available?,product_query,Monitor
+curved monitor available?,product_query,Monitor
+what are your business hours,business_hours,Default
+when are you open,business_hours,Default
+what time do you open,business_hours,Default
+what time do you close,business_hours,Default
+shop timings,business_hours,Default
+store hours,business_hours,Default
+working hours,business_hours,Default
+opening hours,business_hours,Default
+closing time,business_hours,Default
+aaj open ho?,business_hours,Default
+kitne baje khulte ho,business_hours,Default
+kitne baje band hote ho,business_hours,Default
+office timing kya hai,business_hours,Default
+business kab start hota hai,business_hours,Default
+business kab close hota hai,business_hours,Default
+weekend timings,business_hours,Default
+friday timings,business_hours,Default
+are you open today,business_hours,Default
+store open hai?,business_hours,Default
+shop kab open hoti hai,business_hours,Default
+shop kab close hoti hai,business_hours,Default
+timings batao,business_hours,Default
+availability hours,business_hours,Default
+4k monitor available?,product_query,Monitor
+144hz monitor chahiye,product_query,Monitor
+cheap monitor dikhao,product_query,Monitor
+best monitor for gaming?,product_query,Monitor
+monitor ki price kya hai,product_query,Monitor
+monitor kitne ka hai,product_query,Monitor
+monitor for editing chahiye,product_query,Monitor
+dual monitor setup ke liye monitor chahiye,product_query,Monitor
+show monitor prices,product_query,Monitor
+ips monitor available?,product_query,Monitor
+office work ke liye monitor chahiye,product_query,Monitor
+hello headphones available?,product_query,Headphone
+thanks,other,None
+thank you,other,None
+thanks a lot,other,None
+okay thanks,other,None
+ok,other,None
+okay,other,None
+alright,other,None
+cool,other,None
+nice,other,None
+great,other,None
+perfect,other,None
+got it,other,None
+understood,other,None
+bye,other,None
+goodbye,other,None
+see you,other,None
+talk later,other,None
+allah hafiz,other,None
+khuda hafiz,other,None
+lol,other,None
+haha,other,None
+😂,other,None
+👍,other,None
+❤️,other,None
+hmm,other,None
+hmmm,other,None
+random text,other,None
+asdfgh,other,None
+test message,other,None
+just checking,other,None
+i am just browsing,other,None
+not now,other,None
+maybe later,other,None
+i will think,other,None
+gaming headphones chahiye,product_query,Headphone
+wireless headphones available?,product_query,Headphone
+bluetooth headphones available?,product_query,Headphone
+noise cancelling headphones available?,product_query,Headphone
+cheap headphones dikhao,product_query,Headphone
+best headphones for gaming?,product_query,Headphone
+headphone ki price kya hai,product_query,Headphone
+headphone kitne ka hai,product_query,Headphone
+music headphones available?,product_query,Headphone
+studio headphones available?,product_query,Headphone
+gaming headset available?,product_query,Headphone
+show headphone prices,product_query,Headphone
+hello keyboard available?,product_query,Keyboard
+gaming keyboard available?,product_query,Keyboard
+mechanical keyboard available?,product_query,Keyboard
+rgb keyboard available?,product_query,Keyboard
+wireless keyboard available?,product_query,Keyboard
+cheap keyboard chahiye,product_query,Keyboard
+best keyboard for gaming?,product_query,Keyboard
+keyboard ki price kya hai,product_query,Keyboard
+i need a gaming monitor,product_query,Monitor
+do you have office laptops,product_query,Laptop
+hello i want wireless headphones,product_query,Headphone
+can i buy a curved monitor,product_query,Monitor
+i want to order a laptop,product_query,Laptop
+hi do you sell gaming mousepads,product_query,Mousepad
+hello can i buy office keyboard,product_query,Keyboard
+i need a cheap laptop,product_query,Laptop
+do you have rgb mouse,product_query,Mouse
+can i purchase headphones,product_query,Headphone
+hello i need a monitor for gaming,product_query,Monitor
+hi do you have laptop accessories,product_query,Laptop
+i want to buy wireless keyboard,product_query,Keyboard
+do you sell office mouse,product_query,Mouse
+can i get a bluetooth headset,product_query,Headphone
+hello i want to buy a gaming mouse,product_query,Mouse
+hi can you show laptop options,product_query,Laptop
+i need a professional monitor,product_query,Monitor
+do you have keyboard and mouse combo,product_query,Keyboard
+hello i want a gaming headset,product_query,Headphone
+can i buy a mousepad for gaming,product_query,Mousepad
+hi i need a monitor for editing,product_query,Monitor
+do you sell pc accessories,product_query,Mouse
+hello can i buy office laptop,product_query,Laptop
+i need wireless headphones for music,product_query,Headphone
+do you have rgb keyboards,product_query,Keyboard
+hello i want to order a monitor,product_query,Monitor
+can i purchase a gaming laptop,product_query,Laptop
+hi do you sell wireless mousepads,product_query,Mousepad
+i need headphones for gaming,product_query,Headphone
+do you have budget laptops,product_query,Laptop
+bye,other,None
+goodbye,other,None
+allah hafiz,other,None
+khuda hafiz,other,None
+see you later,other,None
+talk to you later,other,None
+can you help me?,other,None
+mujhe help chahiye,other,None
+i have a question,other,None
+ek sawaal tha,other,None
+can i ask something?,other,None
+thora guide kar dein,other,None
+need some guidance,other,None
+confused hoon thora,other,None
+can you explain?,other,None
+samjha dein please,other,None
+hello can i get a monitor under budget,product_query,Monitor
+hi do you sell studio headphones,product_query,Headphone
+i want to buy a laptop for university,product_query,Laptop
+do you have gaming monitors available,product_query,Monitor
+hello i need wireless gaming mouse,product_query,Mouse
+hi can i purchase keyboard accessories,product_query,Keyboard
+i want to buy headphones for office use,product_query,Headphone
+do you sell premium laptops,product_query,Laptop
+hello can i get a large mousepad,product_query,Mousepad
+hi i need office monitor,product_query,Monitor
+i want to buy rgb keyboard,product_query,Keyboard
+do you have office accessories available,product_query,Mouse
+hello i need gaming headphones with mic,product_query,Headphone
+hi can i buy a laptop for coding,product_query,Laptop
+i want to purchase a wireless mouse,product_query,Mouse
+do you sell keyboard mouse combos,product_query,Keyboard
+hello can i get bluetooth headphones,product_query,Headphone
+hi i want to buy a gaming chair,product_query,Gaming Chair
+i need a desk mat for gaming setup,product_query,Mousepad
+do you have monitor stands,product_query,Monitor
+hello can i purchase pc setup accessories,product_query,Mouse
+hi i need laptop cooling pad,product_query,Laptop
+hello,menu,Default
+hi there,menu,Default
+hey,menu,Default
+good morning,menu,Default
+good evening,menu,Default
+good afternoon,menu,Default
+assalamualaikum,menu,Default
+aoa,menu,Default
+salam,menu,Default
+what can you do,menu,Default
+show menu,menu,Default
+main menu,menu,Default
+options,menu,Default
+help,menu,Default
+i need help,menu,Default
+guide me,menu,Default
+start,menu,Default
+restart,menu,Default
+support please,menu,Default
+are you there,menu,Default
+hello bot,menu,Default
+hi bot,menu,Default
+yo,menu,Default
+hey bro,menu,Default
+hello friend,menu,Default
+kya haal hai,menu,Default
+kya scene hai,menu,Default
+sab theek?,menu,Default
+assist me,menu,Default
+what do you do,menu,Default
+show options please,menu,Default
+i want to buy a usb keyboard,product_query,Keyboard
+do you sell wired headphones,product_query,Headphone
+hello can i get wireless office mouse,product_query,Mouse
+hi i want a gaming mousepad,product_query,Mousepad
+i need a curved gaming monitor,product_query,Monitor
+do you have laptops for students,product_query,Laptop
+hello can i purchase gaming keyboard and mouse,product_query,Keyboard
+hi do you sell ergonomic mouse,product_query,Mouse
+i want to buy professional headphones,product_query,Headphone
+do you have ultra wide monitors,product_query,Monitor
+hello i need affordable laptop,product_query,Laptop
+hi can i buy keyboard for office work,product_query,Keyboard
+i want a premium gaming mouse,product_query,Mouse
+do you sell noise cancelling headphones,product_query,Headphone
+hello can i buy rgb mousepad,product_query,Mousepad
+hi i need gaming monitor under budget,product_query,Monitor
+that is expensive,other,None
+bohat mehenga hai,other,None
+too costly,other,None
+budget se bahar hai,other,None
+cheap nahi hai kya?,other,None
+kuch sasta nahi hai?,other,None
+price zyada hai,other,None
+discount milega?,other,None
+sale chal rahi hai?,other,None
+best price kya hai?,other,None
+hahaha,other,None
+lol,other,None
+good evening,menu,Default
+can you help me,menu,Default
+i need help,menu,Default
+guide me please,menu,Default
+support chahiye,menu,Default
+main menu,menu,Default
+show menu,menu,Default
+what can you do,menu,Default
+services kya hain,menu,Default
+options dikhao,menu,Default
+kya scene hai,menu,Default
+bot ho?,menu,Default
+recommend something,menu,Default
+which product should i buy,menu,Default
+confused between products,menu,Default
+need advice,menu,Default
+help me choose a laptop,menu,Default
+can you recommend something,menu,Default
+mujhe samajh nahi aa rahi,menu,Default
+assist me please,menu,Default
+need guidance,menu,Default
+best option batao,menu,Default
+contact number please,contact_request,Default
+support number chahiye,contact_request,Default
+customer care number do,contact_request,Default
+phone number batao,contact_request,Default
+how can i contact you,contact_request,Default
+what are your business hours,business_hours,Default
+when are you open,business_hours,Default
+what time do you open,business_hours,Default
+what time do you close,business_hours,Default
+business timings,business_hours,Default
+opening hours,business_hours,Default
+working hours,business_hours,Default
+shop timings,business_hours,Default
+when does your business open,business_hours,Default
+when do you close,business_hours,Default
+what are your timings,business_hours,Default
+are you open today,business_hours,Default
+opening time please,business_hours,Default
+closing time please,business_hours,Default
+store hours,business_hours,Default
+office timings please,business_hours,Default
+availability hours,business_hours,Default
+kitne baje khulte ho,business_hours,Default
+kitne baje band hote ho,business_hours,Default
+business hours kya hain,business_hours,Default
+timings batao,business_hours,Default
+shop kab khulti hai,business_hours,Default
+shop kab band hoti hai,business_hours,Default
+office timing kya hai,business_hours,Default
+kab available hote ho,business_hours,Default
+opening timing batao,business_hours,Default
+closing timing batao,business_hours,Default
+aaj open ho?,business_hours,Default
+aaj kitne baje tak open ho,business_hours,Default
+hello do you sell laptops,product_query,Laptop
+hi i need a laptop,product_query,Laptop
+gaming laptop available?,product_query,Laptop
+office laptop chahiye,product_query,Laptop
+student laptop available hai?,product_query,Laptop
+hello dost,menu,Default
+hi dost,menu,Default
+hello friend,menu,Default
+hi friend,menu,Default
+kese ho,menu,Default
+kaise ho,menu,Default
+kya haal chaal,menu,Default
+kya kar rahe ho,menu,Default
+kya ho raha hai,menu,Default
+sab theek hai?,menu,Default
+response do,menu,Default
+reply karo,menu,Default
+hello bot,menu,Default
+hi bot,menu,Default
+are you there,menu,Default
+you there?,menu,Default
+wake up,menu,Default
+support email bhejo,contact_request,Default
+whatsapp number do,contact_request,Default
+rabta number bhejo,contact_request,Default
+sales contact bhejo,contact_request,Default
+technical support number do,contact_request,Default
+customer service number chahiye,contact_request,Default
+support team se baat karni hai,contact_request,Default
+official contact details bhejo,contact_request,Default
+call support please,contact_request,Default
+store contact number kya hai,contact_request,Default
+what are your business hours,business_hours,Default
+when are you open,business_hours,Default
+what time do you close,business_hours,Default
+business timings please,business_hours,Default
+shop timings kya hain,business_hours,Default
+opening hours batao,business_hours,Default
+working hours kya hain,business_hours,Default
+aaj open ho?,business_hours,Default
+kitne baje khulte ho,business_hours,Default
+kitne baje band hote ho,business_hours,Default
+friday timings kya hain,business_hours,Default
+weekend timings kya hain,business_hours,Default
+store hours bhejo,business_hours,Default
+office kab khulta hai,business_hours,Default
+office kab band hota hai,business_hours,Default
+raat tak open ho?,business_hours,Default
+morning me open hote ho?,business_hours,Default
+evening me available ho?,business_hours,Default
+timing schedule bhejo,business_hours,Default
+nice one,other,None
+funny tha,other,None
+😂,other,None
+👍,other,None
+❤️,other,None
+hmm,other,None
+hmmm,other,None
+okayy,other,None
+send details please,other,None
+details bhej dein,other,None
+picture bhej sakte ho?,other,None
+can you send image?,other,None
+link bhej dein,other,None
+location kya hai?,other,None
+shop kahan hai?,other,None
+delivery available hai?,other,None
+cash on delivery hai?,other,None
+kitne din mein delivery hogi?,other,None
+regards,menu,Default
+hey bro kya haal hai,menu,Default
+hello bhai kese ho,menu,Default
+salam dost kya scene hai,menu,Default
+aoa bhai sab theek?,menu,Default
+hi kya kar rahe ho,menu,Default
+hello kya chal raha hai,menu,Default
+hello,menu,Default
+hi,menu,Default
+hey there,menu,Default
+assalamualaikum,menu,Default
+aoa,menu,Default
+salam,menu,Default
+good morning,menu,Default
+business kab start hota hai,business_hours,Default
+hello do you sell monitors,product_query,Monitor
+hi i want to buy a laptop,product_query,Laptop
+i want to buy a mousepad,product_query,Mousepad
+hello can i buy a gaming laptop,product_query,Laptop
+hi do you have wireless mouse,product_query,Mouse
+do you sell keyboards,product_query,Keyboard
+can i buy headphones from you,product_query,Headphone
+hello i need a mechanical keyboard,product_query,Keyboard
+can i buy gaming accessories,product_query,Mouse
+i want a mousepad with rgb lights,product_query,Mousepad
+i want a laptop for graphic designing,product_query,Laptop
+do you have wireless mechanical keyboards,product_query,Keyboard
+hello i need headphones for zoom meetings,product_query,Headphone
+hi can i buy office mousepad,product_query,Mousepad
+i want to purchase gaming accessories bundle,product_query,Mouse
+jeans chahiye,product_query,Jeans
+blue jeans available?,product_query,Jeans
+cargo pants dikhao,product_query,Pants
+black jeans chahiye,product_query,Jeans
+gaming controller chahiye,product_query,Controller
+ps5 controller available?,product_query,Controller
+xbox controller dikhao,product_query,Controller
+wireless controller chahiye,product_query,Controller
+controller price kya hai?,product_query,Controller
+cheap controller available?,product_query,Controller
+contact number please,contact_request,Default
+support number chahiye,contact_request,Default
+customer care number do,contact_request,Default
+phone number batao,contact_request,Default
+what are your business hours,business_hours,Default
+when are you open,business_hours,Default
+what time do you open,business_hours,Default
+what time do you close,business_hours,Default
+store timings kya hain,business_hours,Default
+shop kab khulti hai,business_hours,Default
+shop kab band hoti hai,business_hours,Default
+opening hours batao,business_hours,Default
+closing time kya hai,business_hours,Default
+aaj open ho?,business_hours,Default
+working hours kya hain,business_hours,Default
+thank you,other,None
+thanks bhai,other,None
+okay thanks,other,None
+goodbye,other,None
+bye,other,None
+allah hafiz,other,None
+khuda hafiz,other,None
+see you later,other,None
+okay cool,other,None
+alright then,other,None
+nice,other,None
+cool,other,None
+hmm okay,other,None
+got it,other,None
+understood,other,None
+perfect,other,None
+great,other,None
+random text,other,None
+asdfghjkl,other,None
+what is life,other,None
+blah blah blah,other,None
+i don't know,other,None
+test message,other,None
+hello random stuff,other,None
+qwerty,other,None
+haha,other,None
+lol,other,None
+😂,other,None
+👍,other,None
+❤️,other,None
+not now,other,None
+maybe later,other,None
+i will think about it,other,None
+just browsing,other,None
+not buying yet,other,None
+i am checking,other,None
+thanks for help,other,None
+ok bye,other,None
+talk later,other,None
+office timing kya hai,business_hours,Default
+kab available hote ho,business_hours,Default
+friday timing kya hai,business_hours,Default
+weekend timings batao,business_hours,Default
+business kab start hota hai,business_hours,Default
+raat tak open ho?,business_hours,Default
+subah kab khulte ho,business_hours,Default
+timings share karo,business_hours,Default
+store open hai ya nahi,business_hours,Default
+how can i contact you,contact_request,Default
+email address kya hai,contact_request,Default
+menu,menu,Default
+main menu,menu,Default
+show menu,menu,Default
+open menu,menu,Default
+what is the menu,menu,Default
+what can you do,menu,Default
+what do you offer,menu,Default
+show options,menu,Default
+options,menu,Default
+show options please,menu,Default
+available options,menu,Default
+help menu,menu,Default
+start menu,menu,Default
+restart menu,menu,Default
+bot menu,menu,Default
+services,menu,Default
+what services do you have,menu,Default
+what services do you offer,menu,Default
+guide me,menu,Default
+assist me,menu,Default
+help me,menu,Default
+i need help,menu,Default
+need help,menu,Default
+help please,menu,Default
+can you help me,menu,Default
+show me what you can do,menu,Default
+what can you do for me,menu,Default
+show me features,menu,Default
+features,menu,Default
+kya kar sakte ho,menu,Default
+kya options hain,menu,Default
+menu dikhao,menu,Default
+menu show karo,menu,Default
+main options dikhao,menu,Default
+bot kya karta hai,menu,Default
+tum kya kar sakte ho,menu,Default
+available kya hai,menu,Default
+kya services hain,menu,Default
+start chat,menu,Default
+begin,menu,Default
+lets start,menu,Default
+hello menu,menu,Default
+hi menu,menu,Default
+show me menu options,menu,Default
+i want menu,menu,Default
+show everything,menu,Default
+what are my options,menu,Default
+list options,menu,Default
+tell me options,menu,Default
+help options,menu,Default
+navigation menu,menu,Default
+main options,menu,Default
+what next,menu,Default
+guide options,menu,Default
+assistant menu,menu,Default
+bot options,menu,Default
+show dashboard,menu,Default
+open dashboard,menu,Default
+get started,menu,Default
+start here,menu,Default
+begin chat,menu,Default
+i am confused,menu,Default
+samajh nahi aa raha,menu,Default
+mujhe help chahiye,menu,Default
+kya karun,menu,Default
+ab kya karna hai,menu,Default
+what now,menu,Default
+whatsapp number do,contact_request,Default
+support team se baat karni hai,contact_request,Default
+live agent se connect karo,contact_request,Default
+help desk number do,contact_request,Default
+contact details share karo,contact_request,Default
+official number kya hai,contact_request,Default
+sales contact bhejo,contact_request,Default
+technical support number chahiye,contact_request,Default
+store ka number do,contact_request,Default
+helpline kya hai,contact_request,Default
+customer support email do,contact_request,Default
+1,menu,Default
+2,menu,Default
+3,menu,Default
+4,menu,Default
+option 1,menu,Default
+option 2,menu,Default
+option 3,menu,Default
+option 4,menu,Default
+press 1,menu,Default
+press 2,menu,Default
+press 3,menu,Default
+press 4,menu,Default
+choose 1,menu,Default
+choose 2,menu,Default
+choose 3,menu,Default
+choose 4,menu,Default
+select 1,menu,Default
+select 2,menu,Default
+select 3,menu,Default
+select 4,menu,Default
+i choose 1,menu,Default
+i choose 2,menu,Default
+i choose 3,menu,Default
+i choose 4,menu,Default
+menu 1,menu,Default
+menu 2,menu,Default
+menu 3,menu,Default
+just 1,menu,Default
+just 2,menu,Default
+just 3,menu,Default
+just 4,menu,Default
+send 1,menu,Default
+send 2,menu,Default
+send 3,menu,Default
+send 4,menu,Default
+menu 4,menu,Default
+pick 1,menu,Default
+pick 2,menu,Default
+pick 3,menu,Default
+pick 4,menu,Default
+number 1,menu,Default
+number 2,menu,Default
+number 3,menu,Default
+number 4,menu,Default
+one,menu,Default
+two,menu,Default
+three,menu,Default
+four,menu,Default
+1 please,menu,Default
+2 please,menu,Default
+3 please,menu,Default
+4 please,menu,Default
+option one,menu,Default
+option two,menu,Default
+option three,menu,Default
+pehla option,menu,Default
+dosra option,menu,Default
+teesra option,menu,Default
+chautha option,menu,Default
+pehla chun lo,menu,Default
+dosra chun lo,menu,Default
+teesra chun lo,menu,Default
+chautha chun lo,menu,Default
+1 select karo,menu,Default
+2 select karo,menu,Default
+3 select karo,menu,Default
+4 select karo,menu,Default
+1 dabao,menu,Default
+2 dabao,menu,Default
+3 dabao,menu,Default
+4 dabao,menu,Default
+1 choose karo,menu,Default
+2 choose karo,menu,Default
+3 choose karo,menu,Default
+4 choose karo,menu,Default
+option four,menu,Default
+mujhe call karna hai,contact_request,Default
+support se connect kar do,contact_request,Default
+agent se baat karni hai,contact_request,Default
+pc controller dikhao,product_query,Controller
+best controller for gaming,product_query,Controller
+cheap pants available?,product_query,Pants
+pants price kya hai?,product_query,Pants
+comfortable jeans chahiye,product_query,Jeans
+fashion pants dikhao,product_query,Pants
